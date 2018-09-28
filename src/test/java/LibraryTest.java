@@ -13,8 +13,8 @@ public class LibraryTest {
     @Test public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
         int[] arr=new int[] {2,3,4,5};
-		classUnderTest.search(arr, 4, 4);
 		
+		assertEquals("Found",2,classUnderTest.search(arr, 4, 4));
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
 }
