@@ -19,6 +19,7 @@ public class Library {
     } 
     public static void main(String []args) {
     Library lib=new Library();
-   
+    int[] arr=new int[] {2,3,4,5};
+    System.out.println(lib.search(arr, 4, 4));
 }
 }
